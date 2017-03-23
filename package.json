@@ -1,0 +1,15 @@
+{
+  "name": "fizz-buzz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rereed92/fizz-buzz.git",
+  "author": "Rebecca Reed <rreed@andigital.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
