@@ -6,11 +6,14 @@ const should = chai.should();
 const fizzbuzz = require('./fizzbuzz.js');
 
 describe('Fizz Buzz', function() {
+
+    // Setup
     it('should have a function called fizzbuzz', function() {
         let f = fizzbuzz.fizzbuzz;
         assert.isFunction(f);
     });
 
+    // Parameters
     it('should throw an error if the start and end parameters are not numbers', function() {
         expect(function() {
             fizzbuzz.fizzbuzz('a', 'b');
